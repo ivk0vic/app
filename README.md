@@ -17,3 +17,4 @@ Postupak:
 * na ovaj nacin sve fukncije vracaju odredjeni html kod
 6. Kreiranje funkcija za pristup bazi
 * funkcije nam omogucavaju da kad dodamo studenta, on se cuva u bazi
+7. Stilizovanje stranica uz pomoc css koda
