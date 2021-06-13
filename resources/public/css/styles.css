@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  cursor: default;
+}
+body {
+    background-color: #222831;
+}
+#header-links {
+    background-color: #222831;
+    margin-top: 50px;
+    color: #dddddd;
+}
+a {
+  color: #dddddd;
+  text-decoration: none;
+  margin-left: 100px;
+  border: 1px solid #dddddd;
+  padding: 8px 16px;
+  font-weight: bold;
+  transition-duration: .5s;
+}
+a:hover {
+  background-color: #dddddd;
+  color: #222831;
+  cursor: pointer;
+}
+h1 {
+    margin: 60px 0 30px 0;
+    color: #f05454;
+}
+p {
+  color: #dddddd;
+}
+table {
+  color: #dddddd;
+  margin: 0 auto;
+}
+td {
+  padding-top: 10px;
+}
+tr, th {
+  padding: 0 30px 0 30px;
+}
+input {
+  margin-left: 10px;
+  outline: none;
+  border: none;
+  background-color: #222831;
+  border-bottom: 1px solid #dddddd;
+  padding: 8px 16px;
+  color: #dddddd;
+  font-size: 16px;
+  text-align: left;
+  transition-duration: .5s;
+}
+input:focus {
+  outline: none;
+  border-bottom: 1px solid #f05454;
+}
+input:hover {
+  cursor: text;
+}
+.button {
+  background-color: #f05454;
+  font-weight: bold;
+  border: none;
+  margin-top: 30px;
+  padding: 16px 32px;
+  border-radius: 30px;
+}
+.button:hover {
+  cursor: pointer;
+  color: #222831;
+}
